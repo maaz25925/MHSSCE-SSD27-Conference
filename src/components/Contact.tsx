@@ -75,7 +75,7 @@ export default function Contact() {
           <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Location Map</h3>
           <div className="bg-gray-200 rounded-xl overflow-hidden h-96">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.3364822867565!2d72.83248731490284!3d18.97501198717858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce3f6f0c6b8b%3A0x3df7e5e5a3e5e5e5!2sM.H.%20Saboo%20Siddik%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.1629243718826!2d72.82826957444166!3d18.968410755342845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce40ffcfcacd%3A0x5d71ff22760f8e77!2sM.H.%20Saboo%20Siddik%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1789834726464!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
