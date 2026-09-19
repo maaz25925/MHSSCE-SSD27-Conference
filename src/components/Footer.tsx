@@ -13,7 +13,7 @@ export default function Footer() {
               </div>
               <div>
                 <h3 className="text-lg font-bold">MHSSCE</h3>
-                <p className="text-xs text-gray-400">SmartSSD 2026</p>
+                <p className="text-xs text-gray-400">IEEE AISmartSSD 2027</p>
               </div>
             </div>
             <p className="text-gray-400 text-sm">

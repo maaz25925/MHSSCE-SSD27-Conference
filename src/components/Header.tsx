@@ -25,7 +25,7 @@ export default function Header() {
             />
             <div className="hidden md:flex items-center space-x-2">
               <h1 className="text-base font-semibold text-gray-900">MHSSCE</h1>
-              <span className="text-xs text-gray-600">SmartSSD 2026</span>
+              <span className="text-xs text-gray-600">IEEE AISmartSSD 2027</span>
             </div>
           </div>
 
@@ -71,12 +71,6 @@ export default function Header() {
               </button>
               <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                 <div className="py-2">
-                  <button 
-                    onClick={() => scrollToSection('journal')}
-                    className="w-full text-left px-4 py-2 text-gray-700 hover:text-green-600 hover:bg-gray-50 transition-colors"
-                  >
-                    Journal
-                  </button>
                   <button 
                     onClick={() => scrollToSection('mumbai')}
                     className="w-full text-left px-4 py-2 text-gray-700 hover:text-green-600 hover:bg-gray-50 transition-colors"
@@ -134,12 +128,6 @@ export default function Header() {
               <div className="space-y-2">
                 <span className="text-xs text-gray-500 font-semibold uppercase tracking-wide">More</span>
                 <div className="pl-2 space-y-2">
-                  <button 
-                    onClick={() => scrollToSection('journal')}
-                    className="text-left text-gray-700 hover:text-green-600 font-normal text-sm transition-colors"
-                  >
-                    Journal
-                  </button>
                   <button 
                     onClick={() => scrollToSection('mumbai')}
                     className="text-left text-gray-700 hover:text-green-600 font-normal text-sm transition-colors"

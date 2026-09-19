@@ -1,39 +1,39 @@
-import { Calendar, FileText, CheckCircle, Users } from 'lucide-react';
+import { Calendar, FileText, CheckCircle, Users, Megaphone } from 'lucide-react';
 
 export default function ImportantDates() {
   const dates = [
     {
-      icon: <FileText className="w-6 h-6" />,
-      title: "Submission Open",
-      date: "1st January 2026",
+      icon: <Megaphone className="w-6 h-6" />,
+      title: "Call for Papers Announcement",
+      date: "30th October, 2027",
       status: "upcoming",
       color: "from-green-600 to-green-700"
     },
     {
       icon: <FileText className="w-6 h-6" />,
-      title: "Last Date of Submission",
-      date: "15th February 2026",
+      title: "Paper Submission",
+      date: "15th January, 2027",
       status: "upcoming",
       color: "from-green-600 to-green-700"
     },
     {
       icon: <CheckCircle className="w-6 h-6" />,
-      title: "Acceptance",
-      date: "05th March 2026",
+      title: "Notification of Acceptance",
+      date: "15th February, 2027",
       status: "upcoming",
       color: "from-emerald-600 to-emerald-700"
     },
     {
       icon: <Users className="w-6 h-6" />,
-      title: "Camera Ready Paper Submission",
-      date: "10th March 2026",
+      title: "Final Camera Ready Paper",
+      date: "15th March 2027",
       status: "upcoming",
       color: "from-emerald-600 to-emerald-700"
     },
     {
       icon: <Calendar className="w-6 h-6" />,
       title: "Date of Conference",
-      date: "4th & 5th April 2026",
+      date: "17th & 18th April 2027",
       status: "highlighted",
       color: "from-orange-600 to-red-600"
     }

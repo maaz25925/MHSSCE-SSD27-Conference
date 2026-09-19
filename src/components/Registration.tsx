@@ -7,9 +7,9 @@ export default function Registration() {
 
   const bankDetails = {
     bankName: "DCB Bank",
-    bankBranch: "Saboo Siddique",
+    bankBranch: "Saboo Siddik",
     branchCode: "000053",
-    branchAddress: "Saboo Siddique, M. H. S. College of Engg.,\n8 Shepard Road, Byculla, Mumbai, Maharashtra,\nPin: 400008\nTel: 23014149 / 23712525",
+    branchAddress: "Saboo Siddik, M. H. Saboo Siddik College of Engineering,\n8 Shepard Road, Byculla, Mumbai, Maharashtra,\nPIN Code: 400008\nTel: 23014149 / 23712525",
     accountTitle: "AIS MHSS College of Engg",
     accountType: "Classic Current Account",
     accountNumber: "05320100000027",
@@ -52,7 +52,7 @@ export default function Registration() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-green-600 to-green-500 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-4">
-            Register now to secure your spot at SmartSSD 2026
+            Register now to secure your spot at IEEE AISmartSSD 2027
           </p>
         </div>
 
@@ -66,65 +66,42 @@ export default function Registration() {
               <div className="overflow-x-auto">
                 <div className="min-w-[1000px]">
                   {/* Category: Author */}
-                  <div className="bg-gradient-to-r from-green-500 to-blue-600 text-white mb-4 rounded-lg">
+                  {/* <div className="bg-gradient-to-r from-green-500 to-blue-600 text-white mb-4 rounded-lg">
                     <div className="p-4">
                       <h4 className="text-2xl font-bold">Category: Author</h4>
                     </div>
-                  </div>
+                  </div> */}
                   
                   <div className="bg-white rounded-lg border border-gray-200 overflow-hidden mb-8">
                     <div className="overflow-x-auto">
                       <table className="w-full border-collapse">
                         <thead className="bg-gray-50">
                           <tr>
-                            <th className="px-4 py-3 text-left font-semibold text-gray-900 border-b border-gray-200">Sub-Category</th>
-                            <th className="px-4 py-3 text-left font-semibold text-gray-900 border-b border-gray-200">National</th>
-                            <th className="px-4 py-3 text-left font-semibold text-gray-900 border-b border-gray-200">International</th>
+                            <th className="px-4 py-3 text-left font-semibold text-gray-900 border-b border-gray-200">Category</th>
+                            <th className="px-4 py-3 text-left font-semibold text-gray-900 border-b border-gray-200">IEEE Members</th>
+                            <th className="px-4 py-3 text-left font-semibold text-gray-900 border-b border-gray-200">Non-IEEE Members</th>
                           </tr>
                         </thead>
                         <tbody className="divide-y divide-gray-200">
                           <tr className="hover:bg-gray-50 transition-colors">
-                            <td className="px-4 py-4 font-medium text-gray-900">Research Scholar / Student</td>
-                            <td className="px-4 py-4 text-green-600 font-semibold">₹2,000/-</td>
-                            <td className="px-4 py-4 text-green-600 font-semibold">$100 USD</td>
+                            <td className="px-4 py-4 font-medium text-gray-900">Indian Author - Student (UG/PG/Research Scholar)</td>
+                            <td className="px-4 py-4 text-green-600 font-semibold">₹ 6,000</td>
+                            <td className="px-4 py-4 text-green-600 font-semibold">₹ 8,000</td>
                           </tr>
                           <tr className="hover:bg-gray-50 transition-colors">
-                            <td className="px-4 py-4 font-medium text-gray-900">Academician</td>
-                            <td className="px-4 py-4 text-green-600 font-semibold">₹4,000/-</td>
-                            <td className="px-4 py-4 text-green-600 font-semibold">$200 USD</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-
-                  {/* Category: Delegate (Attendees) */}
-                  <div className="bg-gradient-to-r from-green-500 to-purple-600 text-white mb-4 rounded-lg">
-                    <div className="p-4">
-                      <h4 className="text-2xl font-bold">Category: Attendees (without paper)</h4>
-                    </div>
-                  </div>
-                  
-                  <div className="bg-white rounded-lg border border-gray-200 overflow-hidden mb-8">
-                    <div className="overflow-x-auto">
-                      <table className="w-full border-collapse">
-                        <thead className="bg-gray-50">
-                          <tr>
-                            <th className="px-4 py-3 text-left font-semibold text-gray-900 border-b border-gray-200">Sub-Category</th>
-                            <th className="px-4 py-3 text-left font-semibold text-gray-900 border-b border-gray-200">National</th>
-                            <th className="px-4 py-3 text-left font-semibold text-gray-900 border-b border-gray-200">International</th>
-                          </tr>
-                        </thead>
-                        <tbody className="divide-y divide-gray-200">
-                          <tr className="hover:bg-gray-50 transition-colors">
-                            <td className="px-4 py-4 font-medium text-gray-900">Research Scholar / Student</td>
-                            <td className="px-4 py-4 text-green-600 font-semibold">₹500/-</td>
-                            <td className="px-4 py-4 text-green-600 font-semibold">$25 USD</td>
+                            <td className="px-4 py-4 font-medium text-gray-900">Indian Author - Faculty / Academician</td>
+                            <td className="px-4 py-4 text-green-600 font-semibold">₹ 8,000</td>
+                            <td className="px-4 py-4 text-green-600 font-semibold">₹ 9,000</td>
                           </tr>
                           <tr className="hover:bg-gray-50 transition-colors">
-                            <td className="px-4 py-4 font-medium text-gray-900">Academician</td>
-                            <td className="px-4 py-4 text-green-600 font-semibold">₹1,000/-</td>
-                            <td className="px-4 py-4 text-green-600 font-semibold">$50 USD</td>
+                            <td className="px-4 py-4 font-medium text-gray-900">Indian Author - Corporate Sector / Others</td>
+                            <td className="px-4 py-4 text-green-600 font-semibold">₹ 9,000</td>
+                            <td className="px-4 py-4 text-green-600 font-semibold">₹ 10,000</td>
+                          </tr>
+                          <tr className="hover:bg-gray-50 transition-colors">
+                            <td className="px-4 py-4 font-medium text-gray-900">Foreign Author - Academic / Research Scholar / Corporate Sector</td>
+                            <td className="px-4 py-4 text-green-600 font-semibold">$ 200</td>
+                            <td className="px-4 py-4 text-green-600 font-semibold">$ 300</td>
                           </tr>
                         </tbody>
                       </table>
@@ -139,6 +116,9 @@ export default function Registration() {
               >
                 Register Now
               </button>
+              <div className="text-center mt-8 text-gray-600 text-sm w-full">
+              *Registration fee is non-refundable, non-transferable and includes 18% GST
+            </div>
             </div>
           </div>
         </div>
@@ -181,9 +161,6 @@ export default function Registration() {
               </ul>
             </div>
           </div>
-        </div>
-        <div className="text-center mt-8 text-gray-600 text-sm">
-          *Registration fee is non-refundable, non-transferable and includes 18% GST
         </div>
       </div>
 

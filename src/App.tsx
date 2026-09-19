@@ -4,7 +4,6 @@ import About from './components/About';
 import ImportantDates from './components/ImportantDates';
 import Committee from './components/comittee';
 import Registration from './components/Registration';
-import Journal from './components/Journal';
 import Mumbai from './components/Mumbai';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -18,7 +17,6 @@ function App() {
       <ImportantDates />
       <Committee />
       <Registration />
-      <Journal />
       <Mumbai />
       <Contact />
       <Footer />

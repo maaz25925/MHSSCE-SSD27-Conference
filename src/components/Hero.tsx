@@ -20,16 +20,16 @@ export default function Hero() {
       >
         <div className="mb-6">
           <span className="inline-block px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-semibold mb-4">
-            International Conference 2026
+            International Conference 2027
           </span>
         </div>
 
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 leading-tight">
-          SmartSSD 2026
+          IEEE AISmartSSD 2027
         </h1>
 
         <p className="text-xl sm:text-2xl md:text-3xl mb-4 font-light">
-        International Conference on Smart System for Sustainable Development 2026
+        2<sup>nd</sup> International Conference on Artificial Intelligence and Smart Systems for Sustainable Development 2027
         </p>
 
         <div className="mb-8">
@@ -44,7 +44,7 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">
           <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-6 py-3 rounded-lg">
             <Calendar className="w-5 h-5" />
-            <span className="font-semibold">4th & 5th April 2026</span>
+            <span className="font-semibold">17th &amp; 18th April 2027</span>
           </div>
           <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-6 py-3 rounded-lg">
             <MapPin className="w-5 h-5" />

@@ -21,9 +21,7 @@ type CommitteeSection = {
 const chiefPatronImage = new URL('./images/Padmashree Dr. Zahir I Kazi, President, Anjuman-I-Islam.jpg', import.meta.url).href;
 const drShafiPathanImage = new URL('./images/Dr. Shafi Pathan, Principal.jpg', import.meta.url).href;
 const drGaneshKameImage = new URL('./images/Dr. Ganesh Kame, Dean Research & HOD Civil Engineering.webp', import.meta.url).href;
-const drIrfanLandgeImage = new URL('./images/Dr. Irfan A. Landge, HOD CSE (AIML).png', import.meta.url).href;
 const drMohammedShaikhImage = new URL('./images/Dr. Mohammed Ahmed Shaikh, Asst. Prof. Computer Engineering.webp', import.meta.url).href;
-const profSamanaJafriImage = new URL('./images/Er. Samana Jafri, Co-ordinator CSE(IOTCSBCT).webp', import.meta.url).href;
 const drMohiuddinAhmedImage = new URL('./images/Dr. Mohiuddin Ahmed, Hon. Director.webp', import.meta.url).href;
 const drAbdullahShaikhImage = new URL('./images/Dr. Abdullah Shaikh, Hon. Vice President, Anjuman-I-Islam.avif', import.meta.url).href;
 const drMTanveerImage = new URL('./images/Dr. M. Tanveer, Professor, IIT Indore.png', import.meta.url).href;
@@ -33,7 +31,7 @@ export default function Speakers() {
     {
       title: "Committee Members",
       icon: ShieldCheck,
-      description: "Leadership and coordination team steering SmartSSD 2026.",
+      description: "Leadership and coordination team steering IEEE AISmartSSD 2027.",
       entries: [
         {
           label: "Chief Patron",
@@ -55,23 +53,39 @@ export default function Speakers() {
         },
         {
           label: "Organizing Chair",
-          members: [{ name: "Dr. Irfan A. Landge, HOD CSE (AIML)", image: drIrfanLandgeImage }]
-        },
-        {
-          label: "Organising Co-Chairs",
-          members: [
-            { name: "Dr. Mohammed Ahmed Shaikh, Asst. Prof. Computer Engineering", image: drMohammedShaikhImage },
-            { name: "Er. Samana Jafri, Co-ordinator CSE(IOTCSBCT)", image: profSamanaJafriImage }
-          ]
+          members: [{ name: "Dr. Mohammed Ahmed Shaikh, Asst. Prof. Computer Engineering", image: drMohammedShaikhImage }]
         },
         {
           label: "Members (IT & Technical Support)",
           members: [
-            { name: "Er. Waseem Shaikh, Asst. Prof CSE(AIML)" },
             { name: "Mr. Sher Afghan, Programmer (IT)" },
             { name: "Mr. Rehan, Programmer (Comps)" }
           ]
         }
+      ]
+    },
+    {
+      title: " Technical Program Committee",
+      icon: Users,
+      description: "TECHNICAL PROGRAM COMMITTEE DESCRIPTION.",
+      entries: [
+        { members: [{ name: "Dr. Pranav M. Pawar, Associate Professor, BITS Pilani, Dubai Campus, Dubai UAE" }] },
+        { members: [{ name: "Prof. Rushali Thakkar, Quality Specialist, DCL at Smith & Associates, Europe B.V." }] },
+        { members: [{ name: "Dr. Mansi Subedar, Associate Professor, Pillai HOC College of Engineering and Technology, (PHCET) Rasayani" }] },
+        { members: [{ name: "Dr. Shafi Pathan, Principal, Anjuman-i-Islam's M.H. Saboo Siddik College of Engineering, Byculla, Mumbai" }] },
+        { members: [{ name: "Dr. Narendra M. Shekokar, Professor, DJSCE, Mumbai" }] },
+        { members: [{ name: "Dr. Sunil Wankhede, Professor, RGIT, Mumbai" }] },
+        { members: [{ name: "Dr. Vinit Kotak, Professor, SAKE" }] },
+        { members: [{ name: "Dr. Kavita Sonavane, Professor, SFIT" }] },
+        { members: [{ name: "Dr. Kailash Karande, Professor, SKN SCEP, Pandharpur" }] },
+        { members: [{ name: "Mr. Chetan Manjeshwar, Sr. Product Manager, Google" }] },
+        { members: [{ name: "Dr. Prachi Palsodkar, Associate Professor, YCCE" }] },
+        { members: [{ name: "Dr. Abhilash Dixit Mishra, Associate Professor, MIT" }] },
+        { members: [{ name: "Dr. Mohd. Ahmed Shaikh, Assistant Professor, MHSSCE" }] },
+        { members: [{ name: "Prof. Ahlam Ansari, Assistant Professor, MHSSCE" }] },
+        { members: [{ name: "Dr. Chaitali Mahajan, Assistant Professor, MHSSCE" }] },
+        { members: [{ name: "Dr. Tarannum Shaikh, Assistant Professor, MHSSCE" }] },
+        { members: [{ name: "Prof. Amar Pawade, Assistant Professor, MHSSCE" }] }
       ]
     },
     {
@@ -80,7 +94,7 @@ export default function Speakers() {
       description: "Strategic advisors guiding the conference vision.",
       entries: [
         { members: [{ name: "Dr. M. Tanveer, Professor, IIT Indore" }] },
-        { members: [{ name: "Dr. Sanjeev Wagh, Principal | Professor, Information Technology @ Govt. College of Engineering, Karad" }] },
+        { members: [{ name: "Dr. Sanjeev Wagh, Principal, Professor, Information Technology @ Govt. College of Engineering, Karad" }] },
         { members: [{ name: "Dr. Parikshit Mahalle, Dean, R&D, Vishwakarma Institute of Technology" }] },
         { members: [{ name: "Dr. Subhas Shinde ,Chairman Board of Study, Computer Engineering,  Mumbai University." }] },
         { members: [{ name: "Dr. Imtiyaz Yusuf, Professor, International Islamic University Malaysia" }] },
@@ -160,7 +174,7 @@ export default function Speakers() {
     {
       title: "Keynote Speakers",
       icon: Users,
-      description: "Distinguished speakers presenting keynote addresses at SmartSSD 2026.",
+      description: "Distinguished speakers presenting keynote addresses at IEEE AISmartSSD 2027.",
       entries: [
         {
           members: [{ name: "Dr. M. Tanveer, Professor, IIT Indore", image: drMTanveerImage }]
@@ -203,7 +217,7 @@ export default function Speakers() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-green-600 to-green-500 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Official committee roster for SmartSSD 2026 covering leadership, advisory, technical, operational, and hospitality roles.
+            Official committee roster for IEEE AISmartSSD 2027 covering leadership, advisory, technical, operational, and hospitality roles.
           </p>
         </div>
 
@@ -247,7 +261,7 @@ export default function Speakers() {
                             <MemberWithImage key={memberIndex} member={member} />
                           ))}
                         </div>
-                      ) : section.title === " Technical Advisory Board" || section.title === "Registration & Publication Chair" || section.title === "Publicity & Media Chair" || section.title === "Finance Chair" || section.title === "Sponsorship & Industry Relations Chair" || section.title === "Hospitality Chair" ? (
+                      ) : section.title === " Technical Program Committee" || section.title === " Technical Advisory Board" || section.title === "Registration & Publication Chair" || section.title === "Publicity & Media Chair" || section.title === "Finance Chair" || section.title === "Sponsorship & Industry Relations Chair" || section.title === "Hospitality Chair" ? (
                         <div className="flex flex-wrap gap-6">
                           {entry.members.map((member, memberIndex) => (
                             <div key={memberIndex} className="flex-1 min-w-[200px]">

@@ -9,7 +9,13 @@ export default function About() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-green-600 to-emerald-500 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-          The MHSS College of Engineering, under the aegis of Anjuman-i-Islam, proposes to organize an International Conference on Smart Systems for Sustainable Development (SmartSSD 2026) in April 2026. This conference aims to bring together researchers, academicians, industry professionals, and policy experts from across the globe to discuss innovative technologies contributing toward sustainability and green development. 
+          Artificial intelligence is no longer just a tool for automation, it's becoming a partner in how we design, build, and sustain the world around us. The 2<sup>nd</sup> International Conference on Artificial Intelligence and Smart Systems for Sustainable Development brings together researchers, educators, industry experts, and students to talk about exactly that: how smart technologies can help us grow without leaving the planet worse off.
+          </p>
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            The conference tracks reflect this idea in practical terms. Some focus on the digital side of intelligence, data science, machine learning, IoT, blockchain, and cybersecurity, the systems that quietly power everything else. Others look at the physical world these technologies support: smarter factories, greener buildings, cleaner mobility, and more reliable communication networks. Robotics and automation tie the two together, while applied sciences, mathematics, and humanities remind us that good technology also needs solid theory and human judgment behind it.
+          </p>
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            By bringing all of these areas into one conversation, the goal is simple: to help researchers from different backgrounds learn from each other, share what they're working on, and find new ways to make technology and sustainability work together, not as separate goals, but as the same one.
           </p>
         </div>
 
@@ -68,37 +74,41 @@ export default function About() {
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-green-600 rounded-full mt-2"></span>
-                  <span>Artificial Intelligence, Data Science & Machine Learning</span>
+                  <span>Artificial Intelligence, Data Science &amp; Smart Applications</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-green-600 rounded-full mt-2"></span>
-                  <span>Internet of Things, Embedded Systems & Smart Sensor Networks</span>
+                  <span>Internet of Things, Blockchain &amp; Smart Sensor Networks</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-green-600 rounded-full mt-2"></span>
-                  <span>Cybersecurity, Blockchain & Cloud Computing</span>
+                  <span>Cybersecurity, Cloud Computing &amp; Intelligent Information Systems</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-green-600 rounded-full mt-2"></span>
-                  <span>Sustainable Manufacturing & Smart Industrial System</span>
+                  <span>Smart Manufacturing, Automation &amp; Sustainable Industrial Systems</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-green-600 rounded-full mt-2"></span>
+                  <span>Applied Sciences, Engineering Mathematics & Humanities for Sustainable Development</span>
                 </li>
               </ul>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-emerald-500 rounded-full mt-2"></span>
-                  <span>Communication Systems, Wireless Technologies & VLSI Design</span>
+                  <span>Advancements in Civil Engineering: Smart Infrastructure for a Sustainable Future</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-emerald-500 rounded-full mt-2"></span>
-                  <span>Robotics, Automation & Control Systems</span>
+                  <span>Communication Systems, Wireless Technologies &amp; VLSI Design</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-emerald-500 rounded-full mt-2"></span>
-                  <span>Mechanical Engineering, Thermal Engineering & Automotive Systems</span>
+                  <span>Robotics, Automation &amp; Intelligent Control Systems</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-emerald-500 rounded-full mt-2"></span>
-                  <span>Applied Sciences & Engineering Mathematics</span>
+                  <span>Mechanical, Thermal &amp; Automotive Engineering for Sustainable Mobility</span>
                 </li>
               </ul>
             </div>

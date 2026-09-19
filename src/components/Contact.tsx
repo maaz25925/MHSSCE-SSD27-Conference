@@ -61,19 +61,9 @@ export default function Contact() {
               <div className="p-6 bg-gradient-to-br from-green-50 to-green-400 rounded-xl">
                 <div className="space-y-4">
                   <div>
-                    <p className="font-semibold text-gray-900">Dr. Irfan A. Landge</p>
-                    <p className="text-sm text-gray-600">Organizing chair</p>
-                    <p className="text-sm text-gray-600">Email: irfan.landge@mhssce.ac.in</p>
-                  </div>
-                  <div>
                     <p className="font-semibold text-gray-900">Dr. Mohammed Ahmed Shaikh</p>
-                    <p className="text-sm text-gray-600">Organising Co-chair</p>
+                    <p className="text-sm text-gray-600">Organising Chair</p>
                     <p className="text-sm text-gray-600">Email: ahmed.shaikh@mhssce.ac.in</p>
-                  </div>
-                  <div>
-                    <p className="font-semibold text-gray-900">Prof. Samana Jafri</p>
-                    <p className="text-sm text-gray-600">Organising Co-chair</p>
-                    <p className="text-sm text-gray-600">Email: samana.jafri@mhssce.ac.in</p>
                   </div>
                 </div>
               </div>
