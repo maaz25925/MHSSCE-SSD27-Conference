@@ -34,7 +34,7 @@ export default function About() {
         <div className="mb-16">
           <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 md:p-12 shadow-lg">
             <h3 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 text-center">
-              Vision & Mission
+              Vision &amp; Mission
             </h3>
             <div className="w-24 h-1 bg-gradient-to-r from-green-600 to-emerald-500 mx-auto mb-6"></div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

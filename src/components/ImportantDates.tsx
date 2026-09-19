@@ -5,28 +5,28 @@ export default function ImportantDates() {
     {
       icon: <Megaphone className="w-6 h-6" />,
       title: "Call for Papers Announcement",
-      date: "30th October, 2027",
+      date: "15th October, 2026",
       status: "upcoming",
       color: "from-green-600 to-green-700"
     },
     {
       icon: <FileText className="w-6 h-6" />,
       title: "Paper Submission",
-      date: "15th January, 2027",
+      date: "31st December, 2026",
       status: "upcoming",
       color: "from-green-600 to-green-700"
     },
     {
       icon: <CheckCircle className="w-6 h-6" />,
       title: "Notification of Acceptance",
-      date: "15th February, 2027",
+      date: "30th January, 2027",
       status: "upcoming",
       color: "from-emerald-600 to-emerald-700"
     },
     {
       icon: <Users className="w-6 h-6" />,
       title: "Final Camera Ready Paper",
-      date: "15th March 2027",
+      date: "28th February, 2027",
       status: "upcoming",
       color: "from-emerald-600 to-emerald-700"
     },
