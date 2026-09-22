@@ -72,7 +72,7 @@ export default function Speakers() {
     {
       title: " Technical Program Committee",
       icon: Users,
-      description: "TECHNICAL PROGRAM COMMITTEE DESCRIPTION.",
+      description: "",
       entries: [
         { members: [{ name: "Dr. Pranav M. Pawar, Associate Professor, BITS Pilani, Dubai Campus, Dubai UAE" }] },
         { members: [{ name: "Prof. Rushali Thakkar, Quality Specialist, DCL at Smith & Associates, Europe B.V." }] },
