@@ -25,6 +25,7 @@ const drMohammedShaikhImage = new URL('./images/Dr. Mohammed Ahmed Shaikh, Asst.
 const drMohiuddinAhmedImage = new URL('./images/Dr. Mohiuddin Ahmed, Hon. Director.webp', import.meta.url).href;
 const drAbdullahShaikhImage = new URL('./images/Dr. Abdullah Shaikh, Hon. Vice President, Anjuman-I-Islam.avif', import.meta.url).href;
 const drMTanveerImage = new URL('./images/Dr. M. Tanveer, Professor, IIT Indore.png', import.meta.url).href;
+const drIqbalShaikhImage = new URL('./images/dr_iqbal_shaikh_mhssce.jpeg', import.meta.url).href;
 
 export default function Speakers() {
   const committeeSections: CommitteeSection[] = [
@@ -50,6 +51,10 @@ export default function Speakers() {
             { name: "Dr. Shafi Pathan, Principal", image: drShafiPathanImage },
             { name: "Dr. Ganesh Kame, Dean Research", image: drGaneshKameImage }
           ]
+        },
+        {
+          label: "Co-Convenor",
+          members: [ { name: "Dr. Iqbal Ahmed Shaikh, Associate Professor, Humanities and Applied Science Dept", image: drIqbalShaikhImage } ]
         },
         {
           label: "Organizing Chair",
@@ -283,7 +288,7 @@ export default function Speakers() {
                             ))}
                           </div>
                         </div>
-                      ) : (entry.label === "Convenors" || entry.label === "Organising Co-Chairs" || entry.label === "Organising Co-Secretary") ? (
+                      ) : (entry.label === "Convenors" || entry.label === "Co-Convenor" || entry.label === "Organising Co-Chairs" || entry.label === "Organising Co-Secretary") ? (
                         <div className="flex justify-between items-center py-4">
                           <div className="grid grid-cols-2 gap-6 auto-rows-fr w-full">
                             {entry.members.map((member, memberIndex) => (

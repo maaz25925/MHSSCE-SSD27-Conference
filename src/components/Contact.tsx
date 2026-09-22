@@ -56,7 +56,7 @@ export default function Contact() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Conference Coordinators</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">Conference Coordinator</h3>
             <div className="space-y-6">
               <div className="p-6 bg-gradient-to-br from-green-50 to-green-400 rounded-xl">
                 <div className="space-y-4">

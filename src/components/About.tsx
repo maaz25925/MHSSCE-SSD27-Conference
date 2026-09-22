@@ -8,13 +8,13 @@ export default function About() {
             About the Conference
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-green-600 to-emerald-500 mx-auto mb-6"></div>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto text-justify">
           Artificial intelligence is no longer just a tool for automation, it's becoming a partner in how we design, build, and sustain the world around us. The 2<sup>nd</sup> International Conference on Artificial Intelligence and Smart Systems for Sustainable Development brings together researchers, educators, industry experts, and students to talk about exactly that: how smart technologies can help us grow without leaving the planet worse off.
           </p>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto text-justify">
             The conference tracks reflect this idea in practical terms. Some focus on the digital side of intelligence, data science, machine learning, IoT, blockchain, and cybersecurity, the systems that quietly power everything else. Others look at the physical world these technologies support: smarter factories, greener buildings, cleaner mobility, and more reliable communication networks. Robotics and automation tie the two together, while applied sciences, mathematics, and humanities remind us that good technology also needs solid theory and human judgment behind it.
           </p>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto text-justify">
             By bringing all of these areas into one conversation, the goal is simple: to help researchers from different backgrounds learn from each other, share what they're working on, and find new ways to make technology and sustainability work together, not as separate goals, but as the same one.
           </p>
         </div>
