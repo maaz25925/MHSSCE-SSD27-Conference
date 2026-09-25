@@ -47,7 +47,7 @@ export default function Footer() {
             <ul className="space-y-3 text-gray-400 text-sm">
               <li className="flex items-start gap-2">
                 <Mail className="w-4 h-4 mt-1 flex-shrink-0" />
-                <span>smartssd2027@mhssce.ac.in</span>
+                <span><a href="mailto:smartssd2027@mhssce.ac.in">smartssd2027@mhssce.ac.in</a></span>
               </li>
               <li>
                 M.H. Saboo Siddik College<br />

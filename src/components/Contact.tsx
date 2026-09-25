@@ -38,7 +38,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900 mb-1">Email</h4>
-                  <p className="text-gray-600">smartssd2027@mhssce.ac.in</p>
+                  <p className="text-gray-600"><a href="mailto:smartssd2027@mhssce.ac.in">smartssd2027@mhssce.ac.in</a></p>
                 </div>
               </div>
 
@@ -63,7 +63,7 @@ export default function Contact() {
                   <div>
                     <p className="font-semibold text-gray-900">Dr. Mohammed Ahmed Shaikh</p>
                     <p className="text-sm text-gray-600">Organising Chair</p>
-                    <p className="text-sm text-gray-600">Email: ahmed.shaikh@mhssce.ac.in</p>
+                    <p className="text-sm text-gray-600">Email: <a href="mailto:ahmed.shaikh@mhssce.ac.in">ahmed.shaikh@mhssce.ac.in</a></p>
                   </div>
                 </div>
               </div>

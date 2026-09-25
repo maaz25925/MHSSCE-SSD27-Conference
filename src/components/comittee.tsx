@@ -87,7 +87,7 @@ export default function Speakers() {
         { members: [{ name: "Dr. Prachi Palsodkar, Associate Professor, YCCE" }] },
         { members: [{ name: "Dr. Abhilash Dixit Mishra, Associate Professor, MIT" }] },
         { members: [{ name: "Dr. Mohd. Ahmed Shaikh, Assistant Professor, MHSSCE" }] },
-        { members: [{ name: "Prof. Ahlam Ansari, Assistant Professor, MHSSCE" }] },
+        { members: [{ name: "Er. Ahlam Ansari, Assistant Professor, MHSSCE" }] },
         { members: [{ name: "Dr. Chaitali Mahajan, Assistant Professor, MHSSCE" }] },
         { members: [{ name: "Dr. Tarannum Shaikh, Assistant Professor, MHSSCE" }] },
         { members: [{ name: "Prof. Amar Pawade, Assistant Professor, MHSSCE" }] }
@@ -114,7 +114,31 @@ export default function Speakers() {
         { members: [{ name: "Dr. Shagufta S. Sayed, Dean Academics" }] },
         { members: [{ name: "Dr. Nilesh Ghongade, HoD Mechanical" }] },
         { members: [{ name: "Dr. Ashfaq Shaikh, HoD Computer Engineering" }] },
-        { members: [{ name: "Dr. Ravindra Patil, Associate Professor EXTC" }] },
+        { members: [{ name: "Dr. Ravindra Patil, Associate Professor EXTC" }] }
+      ]
+    },
+    {
+      title: "Publication Chair",
+      icon: Layers,
+      description: "",
+      entries: [
+        { members: [{ name: "Dr. Chaitali Mahajan, Assistant Professor, MHSSCE" }] }
+      ]
+    },
+    {
+      title: "Registration & Logistics Chair",
+      icon: Briefcase,
+      description: "",
+      entries: [
+        { members: [{ name: "Prof. Amar Pawade, Assistant Professor, MHSSCE" }] }
+      ]
+    },
+    {
+      title: "Publicity & Sponsorship Chair",
+      icon: Layers,
+      description: "",
+      entries: [
+        { members: [{ name: "Dr. Tarannum Shaikh, Assistant Professor, MHSSCE" }] }
       ]
     },
     {
@@ -122,7 +146,7 @@ export default function Speakers() {
       icon: Layers,
       description: "Managing promotions & outreach activities.",
       entries: [
-        { members: [{ name: "Er. Ahlam Shakeel Ansari, Assistant Professor (Computer Engineering)" }] },
+        { members: [{ name: "Er. Ahlam Ansari, Assistant Professor, Computer Engineering" }] },
         { members: [{ name: "Er. Arshi Khan, Assistant Professor CSE (AIML)" }] }
       ]
     },
@@ -233,7 +257,7 @@ export default function Speakers() {
               <div
                 key={index}
                 className={`bg-gradient-to-br from-white to-gray-50 border border-gray-100 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 p-8 flex flex-col ${
-                  section.title === "Committee Members" || section.title === "Department Session Management Committee" || section.title === "Keynote Speakers" || section.title === "Program Advisory Chair" ? "lg:col-span-2 min-h-[560px] w-full" : "min-h-[380px]"
+                  section.title === "Committee Members" || section.title === "Keynote Speakers" || section.title === "Program Advisory Chair" ? "lg:col-span-2 min-h-[560px] w-full" : "min-h-[380px]"
                 }`}
               >
                 <div className="flex items-center gap-4 mb-6">
@@ -266,7 +290,7 @@ export default function Speakers() {
                             <MemberWithImage key={memberIndex} member={member} />
                           ))}
                         </div>
-                      ) : section.title === " Technical Program Committee" || section.title === " Technical Advisory Board" || section.title === "Registration & Publication Chair" || section.title === "Publicity & Media Chair" || section.title === "Finance Chair" || section.title === "Sponsorship & Industry Relations Chair" || section.title === "Hospitality Chair" ? (
+                      ) : section.title === " Technical Program Committee" || section.title === " Technical Advisory Board" || section.title === "Registration & Publication Chair" || section.title === "Publicity & Media Chair" || section.title === "Finance Chair" || section.title === "Sponsorship & Industry Relations Chair" || section.title === "Hospitality Chair" || section.title === "Publication Chair" || section.title === "Publicity & Sponsorship Chair" || section.title === "Registration & Logistics Chair" ? (
                         <div className="flex flex-wrap gap-6">
                           {entry.members.map((member, memberIndex) => (
                             <div key={memberIndex} className="flex-1 min-w-[200px]">
@@ -274,7 +298,7 @@ export default function Speakers() {
                             </div>
                           ))}
                         </div>
-                      ) : (entry.label === "Chief Patron" || entry.label === "Organizing Secretary" || entry.label === "Organizing Chair") ? (
+                      ) : (entry.label === "Chief Patron" || entry.label === "Organizing Secretary" || entry.label === "Organizing Chair" || entry.label === "Co-Convenor") ? (
                         <div className="flex justify-center items-center py-4">
                           {entry.members.map((member, memberIndex) => (
                             <MemberWithImage key={memberIndex} member={member} />

@@ -22,10 +22,10 @@ export default function About() {
         <div className="mb-16">
           <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 md:p-12 shadow-lg">
             <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">About MHSSCE</h3>
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            <p className="text-lg text-gray-700 leading-relaxed mb-4 text-justify">
               Anjuman-I-Islam's M. H. Saboo Siddik College of Engineering (MHSSCE) stands as a distinguished institution committed to delivering quality technical education and shaping ethically grounded engineers of tomorrow. Located in the heart of Mumbai, MHSSCE is governed by Anjuman-I-Islam, a historic educational conglomerate established in 1874 to uplift underprivileged communities through academic empowerment. The Saboo Siddik Campus, established in 1935, was made possible through the generous endowment of Late Mohammed Haji Saboo Siddik, a visionary philanthropist whose dream was to advance technical and industrial education among the youth of the nation.
             </p>
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <p className="text-lg text-gray-700 leading-relaxed text-justify">
               The college is affiliated to the University of Mumbai, approved by the All India Council for Technical Education (AICTE), and by the Government of Maharashtra Directorate of Technical Education (DTE). It has earned prestigious NBA Accreditation for four of its eligible branches, Civil, Mechanical, Electronics and Telecommunication, and Computer Engineering, and NAAC Accreditation for 5 years, underscoring its commitment to academic excellence, transparency, and continuous improvement.
             </p>
           </div>
