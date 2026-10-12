@@ -1,4 +1,4 @@
-import { ShieldCheck, Users, Briefcase, Layers } from 'lucide-react';
+import { ShieldCheck, Users } from 'lucide-react';
 
 type CommitteeEntry = {
   members: CommitteeMember[];
@@ -26,6 +26,10 @@ const drMohiuddinAhmedImage = new URL('./images/Dr. Mohiuddin Ahmed, Hon. Direct
 const drAbdullahShaikhImage = new URL('./images/Dr. Abdullah Shaikh, Hon. Vice President, Anjuman-I-Islam.avif', import.meta.url).href;
 const drMTanveerImage = new URL('./images/Dr. M. Tanveer, Professor, IIT Indore.png', import.meta.url).href;
 const drIqbalShaikhImage = new URL('./images/dr_iqbal_shaikh_mhssce.jpeg', import.meta.url).href;
+const erAhlamAnsari = new URL('./images/Ahlam-Ansari.webp', import.meta.url).href;
+const drChaitaliMahajan = new URL('./images/Chaitali-Mahajan.webp', import.meta.url).href;
+const drTarannumShaikh = new URL('./images/Tarannum-Shaikh.webp', import.meta.url).href;
+const profAmarPawade = new URL('./images/Amar-Pawade.webp', import.meta.url).href;
 
 export default function Speakers() {
   const committeeSections: CommitteeSection[] = [
@@ -61,10 +65,27 @@ export default function Speakers() {
           members: [{ name: "Dr. Mohammed Ahmed Shaikh, Asst. Prof. Computer Engineering", image: drMohammedShaikhImage }]
         },
         {
+          label: "Technical Program Chair",
+          members: [{ name: "Er. Ahlam Ansari, Assistant Professor, MHSSCE", image: erAhlamAnsari }]
+        },
+        {
+          label: "Publication Chair",
+          members: [{ name: "Dr. Chaitali Mahajan, Assistant Professor, MHSSCE", image: drChaitaliMahajan }]
+        },
+        {
+          label: "Publicity & Sponsorship Chair",
+          members: [{ name: "Dr. Tarannum Shaikh, Assistant Professor, MHSSCE", image: drTarannumShaikh }]
+        },
+        {
+          label: "Registration & Logistics Chair",
+          members: [{ name: "Prof. Amar Pawade, Assistant Professor, MHSSCE", image: profAmarPawade }]
+        },
+        {
           label: "Members (IT & Technical Support)",
-          members: [
-            { name: "Mr. Sher Afghan, Programmer (IT)" },
-            { name: "Mr. Rehan, Programmer (Comps)" }
+          members:
+          [
+            { name: "Mr. Sher Afghan, Programmer (IT)"},
+            { name: "Mr. Rehan, Programmer (COMPS)"}
           ]
         }
       ]
@@ -104,100 +125,6 @@ export default function Speakers() {
         { members: [{ name: "Dr. Subhas Shinde ,Chairman Board of Study, Computer Engineering,  Mumbai University." }] },
         { members: [{ name: "Dr. Imtiyaz Yusuf, Professor, International Islamic University Malaysia" }] },
         { members: [{ name: "Abdullah Ali Bahattab, Associate professor of the Computer Technology Department, College of Telecom & Electronics (early retirement)" }] }
-      ]
-    },
-    {
-      title: "Registration & Publication Chair",
-      icon: Briefcase,
-      description: "Registration, review and publication of all accepted papers.",
-      entries: [
-        { members: [{ name: "Dr. Shagufta S. Sayed, Dean Academics" }] },
-        { members: [{ name: "Dr. Nilesh Ghongade, HoD Mechanical" }] },
-        { members: [{ name: "Dr. Ashfaq Shaikh, HoD Computer Engineering" }] },
-        { members: [{ name: "Dr. Ravindra Patil, Associate Professor EXTC" }] }
-      ]
-    },
-    {
-      title: "Publication Chair",
-      icon: Layers,
-      description: "",
-      entries: [
-        { members: [{ name: "Dr. Chaitali Mahajan, Assistant Professor, MHSSCE" }] }
-      ]
-    },
-    {
-      title: "Registration & Logistics Chair",
-      icon: Briefcase,
-      description: "",
-      entries: [
-        { members: [{ name: "Prof. Amar Pawade, Assistant Professor, MHSSCE" }] }
-      ]
-    },
-    {
-      title: "Publicity & Sponsorship Chair",
-      icon: Layers,
-      description: "",
-      entries: [
-        { members: [{ name: "Dr. Tarannum Shaikh, Assistant Professor, MHSSCE" }] }
-      ]
-    },
-    {
-      title: "Publicity & Media Chair",
-      icon: Layers,
-      description: "Managing promotions & outreach activities.",
-      entries: [
-        { members: [{ name: "Er. Ahlam Ansari, Assistant Professor, Computer Engineering" }] },
-        { members: [{ name: "Er. Arshi Khan, Assistant Professor CSE (AIML)" }] }
-      ]
-    },
-    {
-      title: "Finance Chair",
-      icon: ShieldCheck,
-      description: "Oversight on budgeting, expenses, and financial compliance.",
-      entries: [
-        { members: [{ name: "Dr. Zainab Mirza, HoD IT" }] },
-        { members: [{ name: "Dr. Iqbal Shaikh, I/C FE" }] },
-        { members: [{ name: "Er. Ujwal G. Chaudhary, Associate Professor" }] },
-        { members: [{ name: "Mr. Wajihuddin, Registrar" }] }
-      ]
-    },
-    {
-      title: "Sponsorship & Industry Relations Chair",
-      icon: Users,
-      description: "Building partnerships and ensure funding.",
-      entries: [
-        { members: [{ name: "Dr. Sha Husain S. Maghrabi, TPO" }] },
-        { members: [{ name: "All Department TPO Coordinators" }] }
-      ]
-    },
-    {
-      title: "Hospitality Chair",
-      icon: Briefcase,
-      description: "Ensuring seamless hospitality for dignitaries and delegates.",
-      entries: [
-        { members: [{ name: "Er. Abdul Sayeed, HoD EXTC" }] },
-        { members: [{ name: "Dr. Asrar Taher Pathan, Assistant Professor" }] }
-      ]
-    },
-    {
-      title: "Program Advisory Chair",
-      icon: Layers,
-      description: "Coordinating sessions across all engineering departments.",
-      entries: [
-        { 
-          label: "Department Heads",
-          members: [
-            { name: "Dr. Ashfaq Shaikh, HoD, Computer Engineering" },
-            { name: "Dr. Irfan A. Landge, HoD, Computer Science & Engineering (AI & ML)" },
-            { name: "Er. Samana Jafri ,HoD, Computer Science & Engineering (IoT & Cyber Security including Blockchain Technology)" },
-            { name: "Dr. Zainab Mirza, HoD, Information Technology" },
-            { name: "Dr. Ganesh Kame, HoD, Civil Engineering" },
-            { name: "Dr. Nilesh Ghongade, HoD, Mechanical Engineering" },
-            { name: "Dr. Shaikh Javed Habib, HoD, Mechanical Engineering (Automobile)" },
-            { name: "Er. Abdul Sayeed, HoD, Electronics & Telecommunication Engineering" },
-            { name: "Dr. Iqbal Ahmed Shaikh, HoD, Humanities and Applied Science" }
-          ]
-        }
       ]
     },
     {
@@ -298,7 +225,7 @@ export default function Speakers() {
                             </div>
                           ))}
                         </div>
-                      ) : (entry.label === "Chief Patron" || entry.label === "Organizing Secretary" || entry.label === "Organizing Chair" || entry.label === "Co-Convenor") ? (
+                      ) : (entry.label === "Chief Patron" || entry.label === "Organizing Secretary" || entry.label === "Organizing Chair" || entry.label === "Co-Convenor" || entry.label === "Technical Program Chair" || entry.label === "Publication Chair" || entry.label === "Publicity & Sponsorship Chair" || entry.label === "Registration & Logistics Chair" ) ? (
                         <div className="flex justify-center items-center py-4">
                           {entry.members.map((member, memberIndex) => (
                             <MemberWithImage key={memberIndex} member={member} />
